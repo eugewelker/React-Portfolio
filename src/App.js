@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import Projects from './Projects';
 
   class App extends Component {
     constructor(props) {
@@ -7,15 +7,6 @@ import './App.css';
       this.state = {displayBio:false};
       this.toggleDisplayBio=this.toggleDisplayBio.bind(this);
     }
-
-/*    readMore(){
-      this.setState({displayBio:true});
-    }
-
-    showLess()
-  {
-    this.setState({displayBio:false});
-  }*/
 
   toggleDisplayBio(){
     this.setState({displayBio:!this.state.displayBio})
@@ -40,6 +31,9 @@ import './App.css';
           </div>
         )
       }
+      <hr/>
+      <Projects/>
+      <hr/>
       </div>
     )
     }
