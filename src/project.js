@@ -20,7 +20,7 @@ const PROJECTS=[
 {
   id:3,
   title:'Operating Systems Final Project',
-  description: 'My unique final project for my OPS course',
+  description: 'My unique final project for my Operative System Course',
   link:' https://github.com/eugewelker/React-Portfolio.git',
   image:project3
 }

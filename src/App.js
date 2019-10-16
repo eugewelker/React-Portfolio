@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
+import SocialProfile from './SocialProfile';
 
   class App extends Component {
     constructor(props) {
@@ -34,6 +35,7 @@ import Projects from './Projects';
       <hr/>
       <Projects/>
       <hr/>
+      <SocialProfile/>
       </div>
     )
     }
