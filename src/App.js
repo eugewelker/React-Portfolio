@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
 import SocialProfile from './SocialProfile';
+import profile from './profile.png';
+import Jokes from './Jokes';
+import Title from './Title';
 
   class App extends Component {
     constructor(props) {
@@ -17,7 +20,10 @@ import SocialProfile from './SocialProfile';
 
       return (
       <div className="App">
-        <h1>My name is Eugenio. I am a 31 yo Engineer</h1>
+        <img src={profile} alt="profile" className='profile' />
+        <h1>Hello!</h1>
+        <p>My name is Eugenio.</p>
+        <Title/>
         <p>I am always looking forward to working on meaningful projects</p>
         {this.state.displayBio?(
           <div>
@@ -36,6 +42,8 @@ import SocialProfile from './SocialProfile';
       <Projects/>
       <hr/>
       <SocialProfile/>
+      <hr/>
+      <Jokes/>
       </div>
     )
     }

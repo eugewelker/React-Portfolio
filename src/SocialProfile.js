@@ -1,9 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import SOCIAL_PROFILES from './socialProfiles';
 
-class SocialProfile extends Component{
-  render(){
-    const {link,image}=this.props.socialProfile;
+const SocialProfile= props => {
+    const {link,image}=props.socialProfile;
 
     return(
         <span>
@@ -11,11 +10,8 @@ class SocialProfile extends Component{
         </span>
     )
   }
-}
 
-class SocialProfiles extends Component{
-  render(){
-    return(
+const SocialProfiles= () =>(
       <div>
       <h2>Connect with me!</h2>
       <div>{
@@ -27,7 +23,5 @@ class SocialProfiles extends Component{
           }</div>
       </div>
     )
-  }
-}
 
 export default SocialProfiles;
