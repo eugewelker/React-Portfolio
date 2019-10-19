@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
 import SocialProfile from './SocialProfile';
-import profile from './profile.png';
-import Jokes from './Jokes';
 import Title from './Title';
+import profile from './profile.png';
 
   class App extends Component {
     constructor(props) {
@@ -42,8 +41,6 @@ import Title from './Title';
       <Projects/>
       <hr/>
       <SocialProfile/>
-      <hr/>
-      <Jokes/>
       </div>
     )
     }
