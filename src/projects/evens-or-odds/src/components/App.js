@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {startGame,cancelGame} from '../actions/settings';
 import {fetchNewDeck} from '../actions/deck';
 import fetchStates from '../reducers/fetchStates';
-import Instructions from './instructions';
+import Instructions from './Instructions';
 import DrawCard from './DrawCard';
 import Card from './Card';
 import Guess from './Guess';
