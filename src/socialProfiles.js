@@ -1,7 +1,7 @@
-import emailIcon from '../src/email_icon.png';
-import githubIcon from '../src/github_icon.png';
-import linkedinIcon from '../src/linkedin_icon.png';
-import twitterIcon from '../src/twitter_icon.png';
+import emailIcon from '../src/resources/email_icon.png';
+import githubIcon from '../src/resources/github_icon.png';
+import linkedinIcon from '../src/resources/linkedin_icon.png';
+import twitterIcon from '../src/resources/twitter_icon.png';
 
 const SOCIAL_PROFILES=[
   {

@@ -37176,12 +37176,12 @@ var createBrowserHistory = function createBrowserHistory() {
 };
 
 exports.default = createBrowserHistory;
-},{"warning":"../node_modules/history/node_modules/warning/browser.js","invariant":"../node_modules/invariant/browser.js","./LocationUtils":"../node_modules/history/LocationUtils.js","./PathUtils":"../node_modules/history/PathUtils.js","./createTransitionManager":"../node_modules/history/createTransitionManager.js","./DOMUtils":"../node_modules/history/DOMUtils.js"}],"project1.png":[function(require,module,exports) {
-module.exports = "/project1.401b8fd9.png";
-},{}],"project2.png":[function(require,module,exports) {
-module.exports = "/project2.7c08d064.png";
-},{}],"project3.png":[function(require,module,exports) {
-module.exports = "/project3.1521fe1c.png";
+},{"warning":"../node_modules/history/node_modules/warning/browser.js","invariant":"../node_modules/invariant/browser.js","./LocationUtils":"../node_modules/history/LocationUtils.js","./PathUtils":"../node_modules/history/PathUtils.js","./createTransitionManager":"../node_modules/history/createTransitionManager.js","./DOMUtils":"../node_modules/history/DOMUtils.js"}],"resources/project1.png":[function(require,module,exports) {
+module.exports = "/project1.4dd85fbd.png";
+},{}],"resources/project2.png":[function(require,module,exports) {
+module.exports = "/project2.e26ff97f.png";
+},{}],"resources/project3.png":[function(require,module,exports) {
+module.exports = "/project3.57a5a5ca.png";
 },{}],"project.js":[function(require,module,exports) {
 "use strict";
 
@@ -37190,11 +37190,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _project = _interopRequireDefault(require("../src/project1.png"));
+var _project = _interopRequireDefault(require("../src/resources/project1.png"));
 
-var _project2 = _interopRequireDefault(require("../src/project2.png"));
+var _project2 = _interopRequireDefault(require("../src/resources/project2.png"));
 
-var _project3 = _interopRequireDefault(require("../src/project3.png"));
+var _project3 = _interopRequireDefault(require("../src/resources/project3.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37219,7 +37219,7 @@ var PROJECTS = [{
 }];
 var _default = PROJECTS;
 exports.default = _default;
-},{"../src/project1.png":"project1.png","../src/project2.png":"project2.png","../src/project3.png":"project3.png"}],"Projects.js":[function(require,module,exports) {
+},{"../src/resources/project1.png":"resources/project1.png","../src/resources/project2.png":"resources/project2.png","../src/resources/project3.png":"resources/project3.png"}],"Projects.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37268,14 +37268,14 @@ var Projects = function Projects() {
 
 var _default = Projects;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","./project":"project.js"}],"email_icon.png":[function(require,module,exports) {
-module.exports = "/email_icon.d4c67abf.png";
-},{}],"github_icon.png":[function(require,module,exports) {
-module.exports = "/github_icon.a8e376ea.png";
-},{}],"linkedin_icon.png":[function(require,module,exports) {
-module.exports = "/linkedin_icon.3f65515d.png";
-},{}],"twitter_icon.png":[function(require,module,exports) {
-module.exports = "/twitter_icon.c6c15f40.png";
+},{"react":"../node_modules/react/index.js","./project":"project.js"}],"resources/email_icon.png":[function(require,module,exports) {
+module.exports = "/email_icon.d2e972ce.png";
+},{}],"resources/github_icon.png":[function(require,module,exports) {
+module.exports = "/github_icon.c2fd899b.png";
+},{}],"resources/linkedin_icon.png":[function(require,module,exports) {
+module.exports = "/linkedin_icon.0a282e8c.png";
+},{}],"resources/twitter_icon.png":[function(require,module,exports) {
+module.exports = "/twitter_icon.c272ca69.png";
 },{}],"socialProfiles.js":[function(require,module,exports) {
 "use strict";
 
@@ -37284,13 +37284,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _email_icon = _interopRequireDefault(require("../src/email_icon.png"));
+var _email_icon = _interopRequireDefault(require("../src/resources/email_icon.png"));
 
-var _github_icon = _interopRequireDefault(require("../src/github_icon.png"));
+var _github_icon = _interopRequireDefault(require("../src/resources/github_icon.png"));
 
-var _linkedin_icon = _interopRequireDefault(require("../src/linkedin_icon.png"));
+var _linkedin_icon = _interopRequireDefault(require("../src/resources/linkedin_icon.png"));
 
-var _twitter_icon = _interopRequireDefault(require("../src/twitter_icon.png"));
+var _twitter_icon = _interopRequireDefault(require("../src/resources/twitter_icon.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37313,7 +37313,7 @@ var SOCIAL_PROFILES = [{
 }];
 var _default = SOCIAL_PROFILES;
 exports.default = _default;
-},{"../src/email_icon.png":"email_icon.png","../src/github_icon.png":"github_icon.png","../src/linkedin_icon.png":"linkedin_icon.png","../src/twitter_icon.png":"twitter_icon.png"}],"SocialProfile.js":[function(require,module,exports) {
+},{"../src/resources/email_icon.png":"resources/email_icon.png","../src/resources/github_icon.png":"resources/github_icon.png","../src/resources/linkedin_icon.png":"resources/linkedin_icon.png","../src/resources/twitter_icon.png":"resources/twitter_icon.png"}],"SocialProfile.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37449,8 +37449,8 @@ function (_Component) {
 
 var _default = Title;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js"}],"profile.png":[function(require,module,exports) {
-module.exports = "/profile.380f6419.png";
+},{"react":"../node_modules/react/index.js"}],"resources/profile.png":[function(require,module,exports) {
+module.exports = "/profile.e92e63ae.png";
 },{}],"App.js":[function(require,module,exports) {
 "use strict";
 
@@ -37467,7 +37467,7 @@ var _SocialProfile = _interopRequireDefault(require("./SocialProfile"));
 
 var _Title = _interopRequireDefault(require("./Title"));
 
-var _profile = _interopRequireDefault(require("./profile.png"));
+var _profile = _interopRequireDefault(require("./resources/profile.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37540,7 +37540,7 @@ function (_Component) {
 
 var _default = App;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","./Projects":"Projects.js","./SocialProfile":"SocialProfile.js","./Title":"Title.js","./profile.png":"profile.png"}],"Jokes.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Projects":"Projects.js","./SocialProfile":"SocialProfile.js","./Title":"Title.js","./resources/profile.png":"resources/profile.png"}],"Jokes.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
