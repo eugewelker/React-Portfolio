@@ -23,3 +23,11 @@ yarn-debug.log*
 yarn-error.log*
 
 .png
+
+*node_modules*
+
+*dist*
+
+*.cache*
+
+*DS_Store*
