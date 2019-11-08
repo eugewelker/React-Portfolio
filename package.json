@@ -7,7 +7,6 @@
     "node": "9.5.0"
   },
   "dependencies": {
-    "core-js": "^2.6.10",
     "express": "^4.16.4",
     "history": "^4.7.2",
     "live-server": "^1.2.1",
@@ -17,7 +16,6 @@
     "react-dom": "^16.11.0",
     "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
-    "reactstrap": "^8.1.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "uuid": "^3.3.2"
