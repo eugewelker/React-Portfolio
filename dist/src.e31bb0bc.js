@@ -75666,21 +75666,6 @@ var PubSub = function PubSub() {
 var PubSubContext = (0, _react.createContext)();
 exports.PubSubContext = PubSubContext;
 var _default = PubSub;
-/*
-pubnub.addListener({
-    message:messageObject => {
-        console.log('messageObject',messageObject);
-    }
-});
-
-setTimeout(() => {
-    pubnub.publish ({
-        message: 'foo',
-        channel: MESSAGE_CHANNEL
-    });
-},1000);
-*/
-
 exports.default = _default;
 },{"pubnub":"../../../node_modules/pubnub/dist/web/pubnub.min.js","react":"../node_modules/react/index.js","./pubnub.config":"projects/reaction/pubnub.config.json"}],"../node_modules/uuid/lib/rng-browser.js":[function(require,module,exports) {
 // Unique ID creation requires a high quality random # generator.  In the
@@ -76434,7 +76419,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63072" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63561" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -25,18 +25,3 @@ class PubSub {
 export const PubSubContext = createContext();
 
 export default PubSub;
-
-/*
-pubnub.addListener({
-    message:messageObject => {
-        console.log('messageObject',messageObject);
-    }
-});
-
-setTimeout(() => {
-    pubnub.publish ({
-        message: 'foo',
-        channel: MESSAGE_CHANNEL
-    });
-},1000);
-*/

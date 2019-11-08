@@ -12,4 +12,3 @@ const messagesReducer = (state = DEFAULT_MESSAGES, action) => {
 }
 
 export default messagesReducer;
-
