@@ -7,14 +7,15 @@
     "node": "9.5.0"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "history": "^4.7.2",
     "live-server": "^1.2.1",
     "parcel-bundler": "^1.10.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
     "reactstrap": "^8.1.1",
-    "react-redux": "^6.0.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "uuid": "^3.3.2"
@@ -22,7 +23,7 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel builds src/index.html",
-    "start": "npm run build && live-server dist"
+    "start": "npm run build && node ./"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
