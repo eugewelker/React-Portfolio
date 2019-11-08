@@ -14,13 +14,13 @@ code {
 }
 @font-face{
   font-family:RobotoCondensed;
-  src:url(roboto-condensed.light.5732296e.ttf);
+  src:url(/roboto-condensed.light.5732296e.ttf);
   font-weight: 800;
   }
 
   @font-face{
     font-family:EconomicaBold;
-    src:url(economica-bold.d557f166.ttf);
+    src:url(/economica-bold.d557f166.ttf);
     font-weight: 800;
     }
     .track{
@@ -56,6 +56,7 @@ code {
       padding: 10px;
       opacity:0.8;
     }
+
 body {
   margin: 0;
   font-family: 'RobotoCondensed';
@@ -72,24 +73,25 @@ code {
 }
 @font-face{
   font-family:RobotoCondensed;
-  src:url(roboto-condensed.light.2082dcd0.ttf);
+  src:url(/roboto-condensed.light.2082dcd0.ttf);
   font-weight: 800;
   }
 
   @font-face{
     font-family:EconomicaBold;
-    src:url(economica-bold.7f634469.ttf);
+    src:url(/economica-bold.7f634469.ttf);
     font-weight: 800;
     }
+
 @font-face {
   font-family: RobotoCondensed;
-  src: url(roboto-condensed.light.02ff3b28.ttf);
+  src: url(/roboto-condensed.light.02ff3b28.ttf);
   font-weight: 800;
 }
 
 @font-face {
   font-family: EconomicaBold;
-  src: url(economica-bold.85b17961.ttf);
+  src: url(/economica-bold.85b17961.ttf);
 }
 
 body {
@@ -102,6 +104,7 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'EconomicaBold';
 }
+
 body {
   margin: 0;
   font-family: 'RobotoCondensed';
@@ -111,25 +114,29 @@ body {
   padding:2.5%;
   text-align-last: center;
 }
-
+h1, h2, h3, h4, h5 {
+  font-family: 'EconomicaBold';
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-@font-face{
-  font-family:RobotoCondensed;
-  src:url(roboto-condensed.light.15934f79.ttf);
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(/roboto-condensed.light.6709adf4.ttf);
   font-weight: 800;
-  }
+}
 
-  @font-face{
-    font-family:EconomicaBold;
-    src:url(economica-bold.845e991e.ttf);
-    font-weight: 800;
-    }
+@font-face {
+  font-family: EconomicaBold;
+  src: url(/economica-bold.12a9e27d.ttf);
+}
 
 .profile{
   width:200px;
   height:200px;
   border-radius: 100px;
 }
+
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */

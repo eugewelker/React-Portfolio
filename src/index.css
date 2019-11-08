@@ -7,22 +7,23 @@ body {
   padding:2.5%;
   text-align-last: center;
 }
-
+h1, h2, h3, h4, h5 {
+  font-family: 'EconomicaBold';
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-@font-face{
-  font-family:RobotoCondensed;
-  src:url(roboto-condensed.light.ttf);
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(assets/roboto-condensed.light.ttf);
   font-weight: 800;
-  }
+}
 
-  @font-face{
-    font-family:EconomicaBold;
-    src:url(economica-bold.ttf);
-    font-weight: 800;
-    }
+@font-face {
+  font-family: EconomicaBold;
+  src: url(assets/economica-bold.ttf);
+}
 
 .profile{
   width:200px;

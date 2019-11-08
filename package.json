@@ -7,10 +7,11 @@
     "node": "9.5.0"
   },
   "dependencies": {
+    "core-js": "^2.6.10",
     "express": "^4.16.4",
     "history": "^4.7.2",
     "live-server": "^1.2.1",
-    "parcel-bundler": "^1.10.3",
+    "parcel-bundler": "^1.12.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-redux": "^6.0.0",
